@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
     <title>Travels</title>
 </head>
@@ -17,7 +18,17 @@
         </div>
         <ul class="nav-links">
             <li>
-                <a href="#">Home</a>
+                <a href="home.html">Home</a>
+            </li>
+            <li>
+                <a href="#">Tours <i class="fas fa-caret-down"></i></a>
+
+                <div class="dropdown-menu">
+                    <ul>
+                        <li><a href="#">Domestic Tours</a></li>
+                        <li><a href="#">International Tours</a></li>
+                    </ul>
+                </div>
             </li>
             <li>
                 <a href="#">About Us</a>
@@ -29,7 +40,7 @@
     </nav>
 
     <div>
-        <video src="./videos/landscape.mp4" muted loop autoplay></video>
+        <video src="./videos/landscape.mp4" type="video/mp4" muted loop autoplay></video>
 
         <div class="overlay">
             <h1 class="heading"><b>Travel</b></h1>
@@ -37,7 +48,26 @@
     </div>
 
     <div class="container">
-
+        <div class="tours-container">
+            <h1 class="tour-categories">Tour Categories</h1>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <a href="#">
+                        <img src="./images/taj-mahal.jpg" alt="domestic">
+                    </a>
+                    <h2 class="image-text-overlay">Domestic Tours</h2>
+                </div>
+                <div class="grid-item">
+                    <a href="#">
+                        <img src="./images/international.jpg" alt="international">
+                    </a>
+                    <h2 class="image-text-overlay">International Tours</h2>
+                </div>
+            </div>
+        </div>
+        <div class="why-us-container">
+            <h1>Why Choose Us</h1>
+        </div>
     </div>
 
     <footer id="footer">
