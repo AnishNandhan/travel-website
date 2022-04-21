@@ -14,13 +14,18 @@ nav {
     align-items: center;
     min-height: 8vh;
     font-family: 'Poppins', sans-serif;
-    background-color: antiquewhite;
+    background-color: #336699;
 }
 
 .logo {
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 22px;
     letter-spacing: 3px;
+}
+
+.logo a {
+    color: white;
+    text-decoration: none;
 }
 
 .nav-links {
@@ -35,7 +40,7 @@ nav {
 }
 
 .nav-links a {
-    color: black;
+    color: white;
     text-decoration: none;
     letter-spacing: 2px;
     font-weight: 600;
@@ -44,13 +49,13 @@ nav {
 }
 
 .nav-links li a:hover {
-    color: #006600;
+    color: #009900;
 }
 
 .fas {
     float: right;
-    margin-left: 10px;
-    padding-top: 3px;
+    margin-left: 7px;
+    padding-top: 4px;
 }
 
 .dropdown-menu {
@@ -63,7 +68,7 @@ nav ul li:hover .dropdown-menu {
     left: 0;
     top: 100%;
     z-index: 100;
-    background-color: antiquewhite;
+    background-color: #336699;
 }
 
 nav ul li:hover .dropdown-menu ul {
@@ -91,15 +96,21 @@ nav ul li:hover .dropdown-menu ul li {
     position: relative;
 }
 
-.tour-categories {
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
+.tours-container {
+    padding: 30px;
 }
 
-img {
+.sub-heading {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 10px;
+}
+
+.grid-item img {
     float: left;
     width: 300px;
     height: 300px;
+    border-radius: 2%;
     object-fit: cover;
 }
 
@@ -107,7 +118,7 @@ img {
     position: absolute;
     float: left;
     top: 85%;
-    left: 1%;
+    left: 2%;
     color: white;
     font-family: 'Poppins', sans-serif;
 }
@@ -141,7 +152,20 @@ video {
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: antiquewhite;
+    color: white;
+    font-size: large;
     font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
     font-weight: 1000;
 }
+
+/* hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-style: inset;
+    border-width: 1px;
+} */
