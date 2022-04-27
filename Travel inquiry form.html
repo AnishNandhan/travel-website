@@ -5,6 +5,15 @@
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="style.css">
+        <style>
+        body {
+          background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80' );
+          background-repeat: no-repeat;
+    background-size: 100% 200%;
+        }
+        </style>
+    </head>
+        <body>
         <nav>
           <div class="logo">            
               <a href="home.html">
@@ -35,15 +44,6 @@
               </li>
           </ul>
       </nav>
-      </head>
-    <style>
-        body {
-          background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80' );
-          background-repeat: no-repeat;
-    background-size: 100% 200%;
-        }
-        </style>
-        <body>
     <form method="post">
         <div style="max-width: 500px;">
         </div>
@@ -71,7 +71,7 @@
         </div>
         <div style="padding-bottom: 18px;font-size : 18px;"><b>Will you be requiring any of the following?</b></div>
         <div style="padding-bottom: 18px;">Number of Travellers(including children)<span style="color: red;"> *</span><br/>
-            <textarea id="data_14" style="max-width : 900px;" rows="3" cols="30" class="form-control"></textarea>
+           <input type="number" id="quantity" name="quantity" min="1" max="20">
            </div>
         <div style="padding-bottom: 18px;">Chaperone(attendant/guard)<span style="color: red;"> *</span><br/>
         <span><input type="radio" id="data_9_0" name="data_9" value="Yes"/> Yes</span><br/>
