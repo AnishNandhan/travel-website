@@ -9,6 +9,13 @@ nav {
     background-color: black;
 }
 
+details img {
+    margin-top: 4px;
+    margin-bottom: 7px;
+    margin-left: 7em;
+    border-radius: 3px;
+}
+
 .logo img {
     margin-top: 15px;
     max-height: 10vh;
