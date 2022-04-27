@@ -1,13 +1,3 @@
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
-
-html, body {
-    height: 100%;
-}
-
 nav {
     display: flex;
     justify-content: space-around;
@@ -92,58 +82,6 @@ nav ul li:hover .dropdown-menu ul li {
     padding: 10px;
 }
 
-.container {
-    min-height: 100%;
-    font-family: 'Poppins', sans-serif;
-}
-
-.grid-container {
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    column-gap: 50px;
-}
-
-.grid-item-1 {
-    position: relative;
-}
-
-.tours-container {
-    padding: 30px;
-    margin-bottom: 20px;
-}
-
-.sub-heading {
-    font-size: 40px;
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-    padding-bottom: 10px;
-}
-
-.grid-item-1 img {
-    float: left;
-    width: 300px;
-    height: 300px;
-    border-radius: 2%;
-    object-fit: cover;
-    box-shadow: 4px 4px #a6a6a6;
-}
-
-.image-text-overlay {
-    position: absolute;
-    float: left;
-    top: 85%;
-    left: 4%;
-    color: white;
-    font-family: 'Poppins', sans-serif;
-}
-
-.grid-item-2 img {
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-}
-
 .footer-container {
     background-color: black;
 }
@@ -203,37 +141,3 @@ nav ul li:hover .dropdown-menu ul li {
 .fab {
     margin-right: 4px;
 }
-
-
-video {
-    width: 100%;
-    height: 600px;
-    object-fit: cover;
-}
-
-.overlay {
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: large;
-    font-family: 'Poppins', sans-serif;
-    letter-spacing: 1px;
-    text-align: center;
-}
-
-.overlay p {
-    margin-top: 5px;
-}
-
-/* hr {
-    display: block;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    border-style: inset;
-    border-width: 1px;
-} */

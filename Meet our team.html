@@ -1,58 +1,92 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
     <title>Meet our team</title>
   </head>
+    <style>
+      body {
+        background-image: url('https://www.xmple.com/wallpaper/linear-red-orange-gradient-1920x1080-c2-f0aca9-f0dba9-a-90-f-14.svg' );
+        background-repeat: no-repeat;
+        background-size: 100% 120%;
+      }
+      .column {
+        float: left;
+        width: 30%;
+        margin-bottom: 16px;
+        padding: 0 8px;
+      }
+      @media screen and (max-width: 650px)
+      {
+        .column {
+          width: 90%;
+          display: block;
+
+        }
+      }
+      .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      }
+      .container {
+        padding: 0 16px;
+      }
+
+      .title {
+        color: rgb(10, 10, 95);
+      }
+      .button {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 8px;
+        color: rgb(139, 188, 225);
+        background-color: rgb(47, 18, 77);
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+      }
+
+      .button:hover {
+        background-color: rgb(186, 186, 223);
+      }
+</style>
 
 <body>
-    <style>
-        body {
-    background-image: url('https://www.xmple.com/wallpaper/linear-red-orange-gradient-1920x1080-c2-f0aca9-f0dba9-a-90-f-14.svg' );
-    background-repeat: no-repeat;
-background-size: 100% 120%;
-  }
-.column {
-  float: left;
-  width: 30%;
-  margin-bottom: 16px;
-  padding: 0 8px;
-}
-@media screen and (max-width: 650px)
- {
-  .column {
-    width: 90%;
-    display: block;
-
-  }
-}
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-.container {
-  padding: 0 16px;
-}
-
-.title {
-  color: rgb(10, 10, 95);
-}
-.button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: rgb(139, 188, 225);
-  background-color: rgb(47, 18, 77);
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-}
-
-.button:hover {
-  background-color: rgb(186, 186, 223);
-}
-    </style>
-    <h1 style="text-align: center;font-weight: bolder;font-size: 40px; color:rgba(6, 6, 59, 0.941)"><b>Meet our team</b></h1> 
-    <div class="row">
+  <nav>
+    <div class="logo">            
+        <a href="home.html">
+            <img src="./logo-images/1/Travelsta-logos_white.png" alt="logo-image">
+            <h4>Travelsta</h4>
+        </a>
+    </div>
+  
+    <ul class="nav-links">
+        <li>
+            <a href="home.html">Home</a>
+        </li>
+        <li>
+            <a href="#">Tours <i class="fas fa-caret-down"></i></a>
+  
+            <div class="dropdown-menu">
+                <ul>
+                    <li><a href="./uid case stu/india tours.html">Domestic Tours</a></li>
+                    <li><a href="./uid case stu/case study.html">International Tours</a></li>
+                </ul>
+            </div>
+        </li>
+        <li>
+            <a href="./about us.html">About Us</a>
+        </li>
+        <li>
+            <a href="./Contact.html">Contact</a>
+        </li>
+    </ul>
+  </nav>
+  
+  <h1 style="text-align: center;font-weight: bolder;font-size: 40px; color:rgba(6, 6, 59, 0.941)"><b>Meet our team</b></h1> 
+  <div class="row">
     <div class="column">
       <div class="card">
         <div class="container">
@@ -64,7 +98,7 @@ background-size: 100% 120%;
         </div>
       </div>
     </div>
-  
+    
     <div class="column">
       <div class="card">
         <div class="container">
@@ -91,7 +125,7 @@ background-size: 100% 120%;
   </div>
   <div class="column">
     <div class="card">
-     <div class="container">
+      <div class="container">
         <h2>Harjith L R S</h2>
         <p class="title">Travel Planner.</p>
         <p>“The journey is my home” </p>
@@ -111,3 +145,29 @@ background-size: 100% 120%;
       </div>
     </div>
   </div>
+  <div class="footer-container">
+    <div class="footer">
+        <div class="footer-logo">
+            <h2>Travelsta</h2>
+        </div>
+
+        <div class="footer-heading">
+            <h3>Contact Info</h3>
+            <p>dsfdfdfsf</p>
+            <p>sffsdfsdfsdf</p>
+            <p>ssdfsdfsdf</p>
+            <p>skjhsjsdhf</p>
+        </div>
+
+        <div class="footer-heading">
+            <h3>Social Media</h3>
+            <ul class="media-links">
+                <li><a href="#" class="insta"><i class="fab fa-instagram"></i> Instagram</a></li>
+                <li><a href="#" class="fb"><i class="fab fa-facebook"></i> Facebook</a></li>
+                <li><a href="#" class="tw"><i class="fab fa-twitter"></i> Twitter</a></li>
+            </ul>
+        </div>
+    </div>
+  </div>
+</body>
+
