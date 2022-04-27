@@ -1,13 +1,8 @@
 * {
-    /* margin: 0px;
-    padding: 0px; */
-    /* box-sizing: border-box; */
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
-
-h2,p {
-    padding: 10x;
-}
-
 
 nav {
     box-sizing: border-box;
@@ -92,6 +87,10 @@ nav ul li:hover .dropdown-menu ul {
 nav ul li:hover .dropdown-menu ul li {
     width: 150px;
     padding: 10px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
 }
 
 .footer-container {
