@@ -138,6 +138,34 @@ nav ul li:hover .dropdown-menu ul li {
     font-family: 'Poppins', sans-serif;
 }
 
+.why-us-table {
+    margin: auto;
+    width: 100%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.why-us-table td {
+    text-align: center;
+}
+
+.grid-item-2 h3 {
+    font-size: 24px;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    font-weight: 600;
+}
+
+.grid-item-2 p {
+    width: 20em;
+    text-align: justify;
+    line-height: 1.6;
+    font-size: 17px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 400;
+}
+
 .grid-item-2 img {
     width: 300px;
     height: 300px;
