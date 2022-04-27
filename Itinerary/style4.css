@@ -1,4 +1,6 @@
 nav {
+    margin: -1%;
+    padding: -1%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -8,6 +10,7 @@ nav {
 }
 
 .logo img {
+    margin-top: 15px;
     max-height: 10vh;
 }
 
@@ -19,7 +22,6 @@ nav {
 }
 
 .logo h4 {
-    margin-top: 15px;
     margin-left: 20px;
 }
 
@@ -83,6 +85,7 @@ nav ul li:hover .dropdown-menu ul li {
 }
 
 .footer-container {
+    margin: -1%;
     background-color: black;
 }
 
@@ -95,6 +98,10 @@ nav ul li:hover .dropdown-menu ul li {
     font-family: 'Poppins', sans-serif;
     position: relative;
     height: 250px;
+}
+
+.footer p {
+    margin: 0;
 }
 
 .footer-logo {
@@ -113,6 +120,8 @@ nav ul li:hover .dropdown-menu ul li {
 }
 
 .media-links {
+    margin: -1%;
+    padding: 0;
     display: block;
 }
 
