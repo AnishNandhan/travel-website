@@ -186,6 +186,7 @@ nav ul li:hover .dropdown-menu ul li {
 .media-links a {
     color: white;
     text-decoration: none;
+    transition: all 0.2s;
 }
 
 .insta:hover {

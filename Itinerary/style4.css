@@ -91,6 +91,22 @@ nav ul li:hover .dropdown-menu ul li {
     padding: 10px;
 }
 
+p a {
+    border: none;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    background-color: #3c1aff;
+    border-radius: 5px;
+    transition: all 0.2s;
+}
+
+p a:hover {
+    background-color: rgb(20, 113, 220);
+}
+
 .footer-container {
     margin: -1%;
     background-color: black;
@@ -140,6 +156,7 @@ nav ul li:hover .dropdown-menu ul li {
 .media-links a {
     color: white;
     text-decoration: none;
+    transition: all 0.2s;
 }
 
 .insta:hover {

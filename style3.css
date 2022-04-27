@@ -135,6 +135,7 @@ body {
 .media-links a {
     color: white;
     text-decoration: none;
+    transition: all 0.2s;
 }
 
 .insta:hover {
