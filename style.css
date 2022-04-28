@@ -180,16 +180,16 @@ nav ul li:hover .dropdown-menu ul li {
     display: flex;
     color: white;
     justify-content: space-around;
-    padding-top: 50px;
+    padding-top: 30px;
     margin-top: 1em;
     font-family: 'Poppins', sans-serif;
     position: relative;
-    height: 250px;
+    height: 270px;
 }
 
 .footer-logo {
     text-transform: uppercase;
-    margin-top: 4em;
+    margin-top: 5.5em;
     letter-spacing: 1em;
 }
 
@@ -204,6 +204,7 @@ nav ul li:hover .dropdown-menu ul li {
 
 .media-links {
     display: block;
+    margin-top: 1em;
 }
 
 .media-links li {
@@ -231,6 +232,14 @@ nav ul li:hover .dropdown-menu ul li {
 
 .fab {
     margin-right: 4px;
+}
+
+.phone-and-mail {
+    margin-top: 1em;
+}
+
+.fa {
+    margin-right: 7px;
 }
 
 
