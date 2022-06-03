@@ -91,6 +91,10 @@ nav ul li:hover .dropdown-menu ul li {
     padding: 10px;
 }
 
+.it-content td,li,p {
+    font-size: 19.5px;
+}
+
 p a {
     border: none;
     color: white;
